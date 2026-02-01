@@ -43,7 +43,7 @@ tar -xvf ./data.tar.xz
 rm -f ./*.xz
 rm -rf ./usr/share/doc
 mv -v ./usr ./AppDir
-mv -v ./opt/Freetube ./AppDir/bin
+mv -v ./opt/FreeTube ./AppDir/bin
 #mv -v ./opt ./AppDir/lib
 #mkdir -p ./AppDir/bin
 #ln -s ./AppDir/lib/Freetube/freetube ./AppDir/bin/freetube
