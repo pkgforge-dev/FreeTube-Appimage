@@ -11,8 +11,9 @@ DEB_LINK="https://github.com/FreeTubeApp/FreeTube/releases/download/v0.23.13-bet
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Syu --noconfirm pipewire \
-	pipewire-jack
+pacman -Syu --noconfirm \
+	pipewire-jack \
+	pipewire
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
