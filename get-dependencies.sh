@@ -41,6 +41,9 @@ if ! wget --retry-connrefused --tries=30 "$DEB_LINK" -O /tmp/app.deb 2>/tmp/down
 	exit 1
 fi
 
+VERSION="$(git ls-remote --tags --sort="v:refname" https://github.com/FreeTubeApp/FreeTube | tail -n1 | sed 's/.*\///; s/\^{}//; s/^v//')"
+echo "$VERSION" > ~/version
+
 ar xvf /tmp/app.deb
 tar -xvf ./data.tar.xz
 rm -f ./*.xz
@@ -53,5 +56,3 @@ mv -v ./opt/FreeTube ./AppDir/bin
 cp -v ./AppDir/share/applications/freetube.desktop            ./AppDir
 cp -v ./AppDir/share/icons/hicolor/scalable/apps/freetube.svg  ./AppDir/.DirIcon
 cp -v ./AppDir/share/icons/hicolor/scalable/apps/freetube.svg  ./AppDir
-
-awk -F'/' '/Location:/{print $(NF-1); exit}' /tmp/download.log > ~/version
