@@ -1,10 +1,10 @@
 <div align="center">
 
-# FreeTube-AppImage 🐧
+# FreeTube-AppImage-Enhanced 🐧
 
-[![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/FreeTube-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/FreeTube-AppImage/releases/latest)
-[![CI Build Status](https://github.com//pkgforge-dev/FreeTube-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/FreeTube-AppImage/releases/latest)
-[![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/FreeTube-AppImage)](https://github.com/pkgforge-dev/FreeTube-AppImage/releases/latest)
+[![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/FreeTube-AppImage-Enhanced/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/FreeTube-AppImage-Enhanced/releases/latest)
+[![CI Build Status](https://github.com//pkgforge-dev/FreeTube-AppImage-Enhanced/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/FreeTube-AppImage-Enhanced/releases/latest)
+[![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/FreeTube-AppImage-Enhanced)](https://github.com/pkgforge-dev/FreeTube-AppImage-Enhanced/releases/latest)
 
 <p align="center">
   <img src="https://github.com/FreeTubeApp.png" width="128" />
@@ -13,7 +13,7 @@
 
 | Latest Stable Release | Upstream URL |
 | :---: | :---: |
-| [Click here](https://github.com/pkgforge-dev/FreeTube-AppImage/releases/latest) | [Click here](https://github.com/FreeTubeApp/FreeTube) |
+| [Click here](https://github.com/pkgforge-dev/FreeTube-AppImage-Enhanced/releases/latest) | [Click here](https://github.com/FreeTubeApp/FreeTube) |
 
 </div>
 
